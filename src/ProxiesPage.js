@@ -10,7 +10,7 @@ function ProxiesPage() {
       minHeight: '100vh', 
       fontFamily: 'Arial, sans-serif'
     }}>
-      <h2>Proxies</h2>
+      <h2 style={{ marginBottom: '20px' }}>Proxies</h2>
 
       {/* Lunar Proxies Section */}
       <div style={{ 
@@ -20,6 +20,7 @@ function ProxiesPage() {
         marginBottom: '20px' 
       }}>
         <h3>Lunar Proxies</h3>
+        <p style={{ marginBottom: '10px' }}>Choose a Lunar Proxy below:</p>
 
         <a 
           href="http://studying.wdodd.com/" 
@@ -56,7 +57,7 @@ function ProxiesPage() {
         borderRadius: '10px' 
       }}>
         <h3>Interstellar Proxy</h3>
-        <p>Another option for browsing securely.</p>
+        <p>Make break some things, Blocksi may block you.</p>
 
         <a 
           href="https://use.whimsy.me/" 
@@ -66,6 +67,21 @@ function ProxiesPage() {
         >
           Interstellar Proxy
         </a>
+      </div>
+
+      {/* Masker Section */}
+      <div style={{ 
+        backgroundColor: 'rgba(255,255,255,0.1)', 
+        padding: '20px', 
+        borderRadius: '10px' 
+      }}>
+        <h3>Masker</h3>
+        <p>
+          <a href="https://drive.google.com/file/d/168tkZMincjn6172ZydCDWkdhB8zkGKls/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{color: '#00ccff'}}>
+            Masker
+          </a>
+        </p>
+        <p>This tool creates a data URL for an iframe. Not all sites work with it.</p>
       </div>
     </div>
   );

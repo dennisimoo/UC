@@ -63,7 +63,7 @@ function App() {
     <div style={{
       position: 'relative',
       height: '100vh',
-      overflow: 'hidden',
+      overflow: 'auto', // Changed from 'hidden' to 'auto'
       backgroundImage: location.pathname === '/' ? `url(${background})` : 'none',
       backgroundSize: 'cover',
       backgroundPosition: 'center'

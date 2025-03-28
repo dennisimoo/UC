@@ -38,42 +38,46 @@ function CelestePage() {
         <h2>Celeste</h2>
         <h3>Download & Play</h3>
         <p>Choose an option below to play Celeste:</p>
-        <a 
-          href="https://poynomialhelp.myftp.biz/" 
-          style={{ 
-            color: 'white', 
-            textDecoration: 'none', 
-            fontWeight: 'bold',
-            padding: '10px 15px',
-            border: '1px solid white',
-            borderRadius: '5px',
-            display: 'inline-block',
-            marginBottom: '10px',
-            transition: 'background 0.3s'
-          }}
-          onMouseOver={(e) => e.target.style.background = 'rgba(255, 255, 255, 0.2)'}
-          onMouseOut={(e) => e.target.style.background = 'transparent'}
-        >
-          Play Celeste (Unmodded)
-        </a>
-        <br />
-        <a 
-          href="https://polynomialhelp.myftp.biz/" 
-          style={{ 
-            color: 'white', 
-            textDecoration: 'none', 
-            fontWeight: 'bold',
-            padding: '10px 15px',
-            border: '1px solid white',
-            borderRadius: '5px',
-            display: 'inline-block',
-            transition: 'background 0.3s'
-          }}
-          onMouseOver={(e) => e.target.style.background = 'rgba(255, 255, 255, 0.2)'}
-          onMouseOut={(e) => e.target.style.background = 'transparent'}
-        >
-          Play Celeste (Modded - Some features may not work)
-        </a>
+        <div>
+          <a 
+            href="https://poynomialhelp.myftp.biz/" 
+            style={{ 
+              color: 'white', 
+              textDecoration: 'none', 
+              fontWeight: 'bold',
+              padding: '10px 15px',
+              border: '1px solid white',
+              borderRadius: '5px',
+              display: 'inline-block',
+              marginRight: '10px',
+              transition: 'background 0.3s'
+            }}
+            onMouseOver={(e) => e.target.style.background = 'rgba(255, 255, 255, 0.2)'}
+            onMouseOut={(e) => e.target.style.background = 'transparent'}
+          >
+            Play Celeste
+          </a>
+          <a 
+            href="https://drive.google.com/file/d/1ztdSFenq1zZWufYySpQpQS772PhqvpqO/view?usp=sharing" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{ 
+              color: 'white', 
+              textDecoration: 'none', 
+              fontWeight: 'bold',
+              padding: '10px 15px',
+              border: '1px solid white',
+              borderRadius: '5px',
+              display: 'inline-block',
+              transition: 'background 0.3s'
+            }}
+            onMouseOver={(e) => e.target.style.background = 'rgba(255, 255, 255, 0.2)'}
+            onMouseOut={(e) => e.target.style.background = 'transparent'}
+          >
+            Celeste Chapter 6
+          </a>
+        </div>
+        <p style={{ marginTop: '10px' }}>For the Chapter 6 fixed version, it cannot be played on school WiFi.</p>
       </div>
     </div>
   );
